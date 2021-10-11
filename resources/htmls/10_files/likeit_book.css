@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* NTS UIT Development Team PSJ 2014-02-19 */
+
+/* background image */
+.u_likeit_module .u_likeit_btn .u_ico,.u_likeit_module .u_likeit_btn .u_arw{background-image:url(https://ssl.pstatic.net/static/common/likeit/book/sp_likeit.png)}
+
+/* 좋아요 버튼 */
+.u_likeit_module .u_likeit_btn{border-color:#b8b8b8;background-color:#fff}
+.u_likeit_module .u_likeit_btn .u_cnt,.u_likeit_module .u_likeit_btn .u_txt,.u_likeit_module .u_likeit_btn .u_cnt:active,.u_likeit_module .u_likeit_btn .u_txt:active{color:#222}
+.u_likeit_module .u_likeit_btn .u_ico{background-position:0 0}
+.u_likeit_module .u_likeit_btn.on .u_ico{background-position:-20px 0}

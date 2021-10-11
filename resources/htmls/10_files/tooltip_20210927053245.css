@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* JSR 141008 */
+
+/* 사전단어 */
+.word_dic,.word_dicset{float:none !important;display:inline !important;margin:0 !important;padding:0 !important;text-decoration:none !important;background:none !important;border:0 !important;line-height:inherit !important;font-size:inherit !important;color:inherit !important}
+.tlp_dic_hover{cursor:pointer;background:#ffff00 !important}
+
+/* 레이어 bug 대응 */
+.tlp_bug_fix{position:absolute;left:0;right:0;top:0}
+
+/* tooltip layer */
+.tlp_dic_wp{display:none;position:absolute;font-family:'돋움',Dotum,Helvetica,sans-serif;color:#000;z-index:2000}
+.tlp_dic_wp .tlp_ly_dic{position:relative;width:269px;padding:11px 16px 10px;border:1px solid #6789c5;text-align:left;background:#fff;cursor:default}
+.tlp_dic_wp .tlp_ly_dic .tlp_dic_area{padding-bottom:8px;zoom:1}
+.tlp_dic_wp .tlp_ly_dic .tlp_dic_area:after{content:'';display:block;clear:both}
+.tlp_dic_wp .tlp_ly_dic .dic_inner{overflow:hidden;padding-top:8px;margin-top:9px;border-top:1px solid #e2ecf5;font-size:12px;line-height:1.7;zoom:1}
+.tlp_dic_wp .tlp_ly_dic .dic_inner:first-child{padding-top:0;margin-top:0;border-top:none}
+.tlp_dic_wp .tlp_ly_dic li .tlp_num{font-weight:bold;color:#000 !important}
+.tlp_dic_wp .tlp_ly_dic .tlp_more{float:right;padding-right:7px;font-size:12px;line-height:normal;color:#0000e4;background:url(https://ssl.pstatic.net/static/terms/tooltip/pc_sp_dic.png) no-repeat 100% -71px}
+.tlp_dic_wp .tlp_ly_dic .tlp_notice{clear:both;padding-top:9px;border-top:1px solid #e2ecf5;text-indent:20px;font-size:12px;line-height:1.7;color:#777;background:url(https://ssl.pstatic.net/static/terms/tooltip/pc_sp_dic.png) no-repeat -25px 10px}
+.tlp_dic_wp .tlp_ly_dic .tlp_btn_close{overflow:hidden;position:absolute;right:12px;top:12px;width:19px;height:19px;background:url(https://ssl.pstatic.net/static/terms/tooltip/pc_sp_dic.png) no-repeat 0 -40px;text-indent:-99em}
+
+/* tooltip english */
+.tlp_endic .tlp_ly_dic dt{overflow:hidden;margin-bottom:12px;padding-bottom:9px;border-bottom:1px solid #e2ecf5;word-wrap:break-word;word-break:break-all;zoom:1}
+.tlp_endic .tlp_ly_dic .dic_inner:first-child dt{padding-right:22px}
+.tlp_endic .tlp_ly_dic .tlp_tit{display:block;color:#777}
+.tlp_endic .tlp_ly_dic .tlp_headword{font-size:15px;font-family:tahoma;font-weight:bold;color:#0034ac}
+.tlp_endic .tlp_ly_dic .tlp_voice{font:12px "Lucida Sans Unicode"}
+.tlp_endic .tlp_ly_dic .tlp_sound{overflow:hidden;display:inline-block;*display:inline;padding:0;width:16px;height:16px;vertical-align:middle;background:url(https://ssl.pstatic.net/static/terms/tooltip/pc_sp_dic.png) no-repeat 0 0;text-indent:-99em;zoom:1}
+.tlp_endic .tlp_ly_dic .tlp_sound.on{background:url(https://ssl.pstatic.net/static/terms/tooltip/pc_sp_dic.png) no-repeat 0 -20px}
+
+/* tooltip hanja */
+.tlp_hanjadic .tlp_ly_dic .dic_inner{font-size:12px;line-height:1.7}
+.tlp_hanjadic .tlp_ly_dic .tlp_dt{margin:0 0 12px 0;padding:0 22px 7px 0;border-bottom:1px solid #e2ecf5;line-height:1.2;color:#000}
+.tlp_hanjadic .tlp_ly_dic .tlp_hanja{font-size:13px;font-family:굴림,Gulim,'새바탕','New Batang','바탕',batang, '새굴림','New Gulim','돋움',dotum,'산돌 고딕',Apple SD Gothic Neo,Helvetica,AppleGothic,Arial,simsun !important}
+.tlp_hanjadic .tlp_ly_dic .tlp_dt .tlp_tit{display:block;letter-spacing:-1px}
+.tlp_hanjadic .tlp_ly_dic .tlp_dt .tlp_bar{padding:0 2px 0 3px;font-style:normal}
+.tlp_hanjadic .tlp_ly_dic .tlp_dt a.tlp_headword{float:left;padding:0 5px 0 0;text-decoration:none;color:#222;font-size:29px;font-weight:bold;line-height:30px;letter-spacing:0}
+.tlp_hanjadic .tlp_ly_dic .tlp_dt .tlp_radical{color:#a0a0a0;font-size:12px;vertical-align:0.5em}
+.tlp_hanjadic .tlp_ly_dic .tlp_dt .tlp_radical .tlp_hanja{color:#a0a0a0;font-size:14px;line-height:16px;letter-spacing:-1px}
+.tlp_hanjadic .tlp_ly_dic .tlp_dd{letter-spacing:-1px}
+.tlp_hanjadic .tlp_ly_dic .tlp_dd .tlp_lst li{line-height:18px}
+.tlp_hanjadic .tlp_ly_dic .tlp_dd .tlp_lst li span{margin-right:2px;color:#A0A0A0}
