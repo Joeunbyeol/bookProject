@@ -2,7 +2,7 @@
 	margin: 0
 }
 /* pc */
-@media all and (min-width:960px) {
+@media all and (min-width:800px) {
 	#wrap {
 		width: 1040px;
 		margin: auto;
@@ -155,7 +155,7 @@
 }
 
 /* mobile */
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:800px) {
 	#wrap {
 		width: 100%;
 		margin: auto;
